@@ -75,7 +75,7 @@ public class MainActivity extends AppCompatActivity {
 
         final String ConvertImage = Base64.encodeToString(byteArrayVar, Base64.DEFAULT);
 
-        String loginPostUrl = "http://eatsmartai.com:3000/users/signIn";
+        String loginPostUrl = "http://eatsmartai.com:3000/predict/";
         OkHttpLoginHandler loginBgTask = new OkHttpLoginHandler();
        // loginBgTask.execute(loginPostUrl);
 
